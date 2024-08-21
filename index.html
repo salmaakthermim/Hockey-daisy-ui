@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
+    <link rel="stylesheet" href="styles/style.css">
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -57,7 +58,7 @@
         </div>
       </div>
       <!-- banner part -->
-      <div class="relative px-6">
+      <div class="relative px-6 lg:px-0">
        
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
@@ -103,7 +104,81 @@
         </div>
       </div>
    </header>
-   <main></main>
+   <main class="container mx-auto px-12 lg:px-0">
+    <!-- stat section -->
+    <section class="mt-24">
+      <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col  items-center justify-center">
+        <h3 class="text-3xl font-bold mb-3">Professional Hockeys Club</h3>
+        <p class="opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="flex flex-col items-center justify-center py-6 space-y-3">
+         <div class="relative">
+          <div class="z-50 radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+          <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+         </div>
+          <h5 class="text-xl font-bold">Prayer Facility</h5>
+          <p>Amet consectetur. Condimentum .</p>
+        </div>
+        <div class="flex flex-col items-center justify-center py-6 space-y-3">
+         <div class="relative">
+          <div class="z-50 radial-progress text-accent" style="--value:87;" role="progressbar">95%</div>
+          <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:95;" role="progressbar"></div>
+         </div>
+          <h5 class="text-xl font-bold">Experienced Coach</h5>
+          <p>Amet consectetur. Condimentum .</p>
+        </div>
+        <div class="flex flex-col items-center justify-center py-6 space-y-3">
+         <div class="relative">
+          <div class="z-50 radial-progress text-warning" style="--value:87;" role="progressbar">90%</div>
+          <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:90;" role="progressbar"></div>
+         </div>
+          <h5 class="text-xl font-bold">Senior Player</h5>
+          <p>Amet consectetur. Condimentum .</p>
+        </div>
+        <div class="flex flex-col items-center justify-center py-6 space-y-3">
+         <div class="relative">
+          <div class="z-50 radial-progress text-blue-500" style="--value:87;" role="progressbar">80%</div>
+          <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:80;" role="progressbar"></div>
+         </div>
+          <h5 class="text-xl font-bold">Training Ground</h5>
+          <p>Amet consectetur. Condimentum .</p>
+        </div>
+      </div>
+    </section>
+    <!-- programs section -->
+    <section class="mt-24">
+      <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col  items-center justify-center">
+        <h3 class="text-3xl font-bold mb-3">Program Sections</h3>
+        <p class="opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="lg:rounded-md w-full junior-progeam flex flex-col justify-end items-center p-24 text-white"> 
+          <div>
+            <h5 class="text-2xl font-semibold mb-4">Junior Program</h5>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+          </div>
+        </div>
+        <div class="lg:rounded-md w-full Teenager-Program flex flex-col justify-end items-center p-24 text-white"> 
+          <div>
+            <h5 class="text-2xl font-semibold mb-4">Teenager Program</h5>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+          </div>
+        </div>
+        <div class="lg:col-span-2 lg:rounded-md w-full Professional-Program flex flex-col justify-end items-start p-24 text-white"> 
+          <div>
+            <h5 class="text-2xl font-semibold mb-4">Professional Program</h5>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+          </div>
+        </div>
+       
+       
+      </div>
+    </section>
+   </main>
    <footer></footer>
 </body>
 </html>
